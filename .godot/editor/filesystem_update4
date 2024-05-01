@@ -1,0 +1,8 @@
+res://scenes/characters/character.tscn
+res://scripts/state_machine.gd
+res://scripts/character.gd
+res://scenes/characters/player.tscn
+res://scripts/player.gd
+res://scenes/game.tscn
+res://scenes/characters/player.gd
+res://scripts/my_state_machine.gd
