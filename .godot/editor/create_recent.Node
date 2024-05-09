@@ -1,6 +1,8 @@
-MyStateMachine
+Sprite2D
 AnimationPlayer
-CollisionShape2D
 AnimatedSprite2D
+Node2D
+MyStateMachine
+CollisionShape2D
 CharacterBody2D
 TileMap

@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1714585941
+::res://::1715263405
 icon.svg::CompressedTexture2D::2951309386319903604::1714419035::1714419043::1::::<><>::
 ::res://assets/::1714419537
 full spritesheet.png::CompressedTexture2D::876622912649907301::1578454975::1714419167::1::::<><>::
@@ -26,7 +26,7 @@ hit_effect_anim_spritesheet.png::CompressedTexture2D::4476915224773955587::15608
 slash_effect_anim_f0.png::CompressedTexture2D::3895232985796054792::1560833705::1714419167::1::::<><>::
 slash_effect_anim_f1.png::CompressedTexture2D::748776950406190614::1560833714::1714419167::1::::<><>::
 slash_effect_anim_f2.png::CompressedTexture2D::7423134276716610606::1560833723::1714419167::1::::<><>::
-slash_effect_anim_spritesheet.png::CompressedTexture2D::5572634800407316064::1560832919::1714419167::1::::<><>::
+slash_effect_anim_spritesheet.png::CompressedTexture2D::5572634800407316064::1560832919::1715263688::1::::<><>::
 ::res://assets/enemies/::1560308372
 ::res://assets/enemies/flying creature/::1714419167
 fly_anim_f0.png::CompressedTexture2D::9003772515669250693::1560308464::1714419167::1::::<><>::
@@ -66,7 +66,7 @@ slime_run_anim_f4.png::CompressedTexture2D::3490363054291491410::1560307118::171
 slime_run_anim_f5.png::CompressedTexture2D::1249399611644847362::1560307130::1714419167::1::::<><>::
 slime_run_spritesheeet.png::CompressedTexture2D::6478063369763711622::1560306618::1714419167::1::::<><>::
 ::res://assets/heroes/::1558414784
-::res://assets/heroes/knight/::1714419715
+::res://assets/heroes/knight/::1715261694
 knight_idle_anim_f0.png::CompressedTexture2D::2897124244585491924::1558944227::1714419686::1::::<><>::
 knight_idle_anim_f1.png::CompressedTexture2D::486815892926154474::1558944238::1714419167::1::::<><>::
 knight_idle_anim_f2.png::CompressedTexture2D::958109547521703338::1558944246::1714419167::1::::<><>::
@@ -81,7 +81,7 @@ knight_run_anim_f3.png::CompressedTexture2D::4099830695613497109::1560410083::17
 knight_run_anim_f4.png::CompressedTexture2D::353516273551788876::1560410092::1714419167::1::::<><>::
 knight_run_anim_f5.png::CompressedTexture2D::682442296296860272::1560410101::1714419167::1::::<><>::
 knight_run_spritesheet.png::CompressedTexture2D::2748911249089482177::1560410010::1714419715::1::::<><>::
-weapon_sword_1.png::CompressedTexture2D::1219540225666855926::1558415273::1714419167::1::::<><>::
+weapon_sword_1.png::CompressedTexture2D::1219540225666855926::1558415273::1715261694::1::::<><>::
 ::res://assets/props_itens/::1714419167
 bag_coins.png::CompressedTexture2D::439231339776095939::1560310178::1714419167::1::::<><>::
 barrel.png::CompressedTexture2D::5368730968691577740::1559964296::1714419167::1::::<><>::
@@ -204,9 +204,13 @@ menu_button.png::CompressedTexture2D::3461564097770271961::1560831735::171441916
 menu_button_press.png::CompressedTexture2D::8461597846288779597::1560831752::1714419167::1::::<><>::
 pause_button.png::CompressedTexture2D::3791963832769022246::1560832030::1714419167::1::::<><>::
 pause_button_press.png::CompressedTexture2D::7805131269660521183::1560832058::1714419167::1::::<><>::
-::res://scenes/::1714420605
-game.tscn::PackedScene::8954255089359693752::1714420605::0::1::::<><>::uid://dl1ghw3ieo1fn::::res://assets/full tilemap.png
-::res://scenes/characters/::1714420605
-character.gd::GDScript::-1::1714420148::0::1::::<>CharacterBody2D<>::
-character.tscn::PackedScene::6701409789263797618::1714586986::0::1::::<><>::res://scenes/characters/character.gd
-::res://scripts/::1714419193
+::res://scenes/::1715263568
+game.tscn::PackedScene::8954255089359693752::1715263568::0::1::::<><>::uid://dl1ghw3ieo1fn::::res://assets/full tilemap.png<>uid://c0ohafoamwnq3::::res://scenes/characters/player.tscn
+::res://scenes/characters/::1715263568
+character.tscn::PackedScene::6701409789263797618::1714591351::0::1::::<><>::res://scripts/character.gd<>res://scripts/state_machine.gd<>uid://cn1pdim4nirrl::::res://assets/heroes/knight/knight_idle_spritesheet.png<>uid://bffufwwcptddh::::res://assets/heroes/knight/knight_run_spritesheet.png
+player.tscn::PackedScene::6556889050104142688::1715263568::0::1::::<><>::uid://c2qhifuq8668m::::res://scenes/characters/character.tscn<>res://scripts/player.gd<>res://scripts/my_state_machine.gd<>uid://rm0wcvv8rmve::::res://assets/heroes/knight/weapon_sword_1.png
+::res://scripts/::1715263567
+character.gd::GDScript::-1::1714590945::0::1::::Character<>CharacterBody2D<>::
+my_state_machine.gd::GDScript::-1::1714590671::0::1::::<>Node<>::
+player.gd::GDScript::-1::1715263567::0::1::::<>CharacterBody2D<>::
+state_machine.gd::GDScript::-1::1714590987::0::1::::MyStateMachine<>Node<>::
